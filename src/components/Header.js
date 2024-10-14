@@ -1,10 +1,8 @@
 import React from 'react'
-
-const menus = ['Home', 'About Us'];
-
+document.title = 'Starlink Monitoring';
 const Header = () => {
   return (
-    <nav className='navbar navbar-expand-lg bg-body-tertiary'>
+    <nav className='navbar navbar-expand-lg bg-body-tertiary mx-auto w-75'>
         <div className='container-fluid'>
             <span className='navbar-brand'>Starlink Monitoring</span>
         </div>
